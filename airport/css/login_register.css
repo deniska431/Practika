@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Passion One';
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+}
+
+input {
+    border: 2px solid #507fe1;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'Lato';
+    padding: 10px;
+}
+
+form {
+    margin: 25px auto;
+    padding: 20px;
+    border: 5px solid #507fe1;
+    width: 500px;
+    background: #eee;
+}
+
+div.form-element {
+    margin: 20px 0;
+}
+
+
+.test-1-fpn {
+margin: 20px 0;
+}
+
+.test-1-fps {
+margin: 20px 0;
+}
+
+
+.test-1-fbs {
+margin: 20px 0;
+}
+
+.test-2-name {
+margin: 20px 0;
+}
+
+ .test-2-last {
+margin: 20px 0;
+ }
+
+
+.test-2-doc {
+margin: 20px 0;
+}
+
+
+.test-2-phone {
+margin: 20px 0;
+}
+
+.test-2-pass{
+margin: 20px 0;
+}
+.test-2-pass2{
+margin: 20px 0;
+}
+
+.test-2-btn {
+margin: 20px 0;
+}
+
+button {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+    font-weight: 100;
+    background: #507fe1;
+    color: white;
+    border: none;
+}
+
+p.success,
+p.error {
+    color: white;
+    font-family: lato;
+    background: yellowgreen;
+    display: inline-block;
+    padding: 2px 10px;
+}
+
+p.error {
+    background: orangered;
+}
+
+
+.menu_register {
+    padding-top: 50px;
+        padding-bottom: 100px;
+        box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+.slider_register {
+ 
+        background: #f1f1f1 url('../img/commercial_airline_main.png') no-repeat center;
+        background-color: cover;
+        padding-top: 200px;
+        padding-bottom: 270px;
+        margin-top: 80px;
+    
+}
+
+
+
+.menu_login {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+.slider_login {
+
+    background: #f1f1f1 url('../img/commercial_airline_main.png') no-repeat center;
+    background-color: cover;
+    padding-top: 200px;
+    padding-bottom: 270px;
+    margin-top: 80px;
+
+}
+

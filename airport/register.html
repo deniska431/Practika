@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> ✈️ Регистрация </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/login_register.css">
+</head>
+
+
+
+<body>
+    <header class="header">
+        <div class="menu">
+            <div class="container">
+                <nav class="menu__nav">
+                    <details class="details">
+                        <summary class="summary">
+                            <b>МЕНЮ</b>
+                        </summary>
+                        <a href="index.html" class="test-0-nav1">Акции</a>
+                        <a href="#index.html" class="test-0-nav2">Поиск</a>
+                        <a href="booking.html" class="test-0-nav3">Регистрация на рейс</a>
+                        <a href="./login.html" class="test-0-nav4">Личный кабинет</a>
+                    </details>
+                </nav>
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="container">
+                <div class="navbar-wrap">
+                    <div class="shapka"></div>
+                    <div class="test-logo"><b></b></div>
+                    <div class="test-logo-nav">
+                        <a class="shapka1" href="index.html">ЛИПЕЦКАВИО</a>
+                    </div>
+                    <div class="test-logo-nav">
+                        <a class="shapka2" href="#">8(800)100-10-10</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider_register">
+            <div class="container">
+
+                <div class="menu_register">
+                    <form action="./php/register.php" method="post">
+                        <input type="text" placeholder="Введите имя" name="name">
+                        <input type="text" placeholder="Введите фамилию" name="surname">
+                        <input type="text" placeholder="Введите документ" name="doc">
+                        <input type="text" placeholder="Введите номер телефона" name="telephone">
+                        <input type="password" placeholder="Введите пароль" name="pass">
+                        <input type="password" placeholder="Повторите пароль" name="repeatpass" required />
+
+                        <button type="sumbit">Зарегистрироваться</button>
+                    </form>
+
+                    <form>
+                        <div>
+                            Есть аккаунт? - <button><a href="login.html">Войти</a></button>
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </header>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-block">
+                <div class="footer__description">
+                    <h4 class="footer__title">«ЛипецкАВИО»</h4>
+                    <span class="footer__subtitle">Самая качественная авиакомпания</span>
+                    <span class="footer__copy"></span>
+                </div>
+                <div class="footer__contacts">
+                    <a href="index.html" class="footer__contacts_title ">Главная</a>
+                    <a href="login.html" calss="footer__contacts_subtitle">Войти</a>
+                    <a href="register.html" class="footer__contacts_subtitle">Зарегистрироваться</a>
+                    <a href="" class="footer__contacts_subtitle">Контакты</a>
+                    <a href="" class="footer__contacts_subtitle">Новости</a>
+                    <a href="" class="footer__contacts_subtitle">Ретурн</a>
+                    <a href="feedback.html" class="footer__contacts_subtitle">Обратная связь</a>
+                </div>
+                <a href="#" class="test-0-phone">8 (800) 100-10-10</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
